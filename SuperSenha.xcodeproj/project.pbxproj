@@ -14,6 +14,9 @@
 		768CFABF2072AEB400FC57AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768CFABD2072AEB400FC57AC /* LaunchScreen.storyboard */; };
 		768CFACA2072AEB400FC57AC /* SuperSenhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CFAC92072AEB400FC57AC /* SuperSenhaTests.swift */; };
 		768CFAD52072AEB400FC57AC /* SuperSenhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CFAD42072AEB400FC57AC /* SuperSenhaUITests.swift */; };
+		768CFAE32072B97E00FC57AC /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CFAE22072B97E00FC57AC /* PasswordsViewController.swift */; };
+		768CFAE52072BB3D00FC57AC /* SecuriteTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CFAE42072BB3D00FC57AC /* SecuriteTypesViewController.swift */; };
+		768CFAE72072BBF800FC57AC /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CFAE62072BBF800FC57AC /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		768CFAD02072AEB400FC57AC /* SuperSenhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSenhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768CFAD42072AEB400FC57AC /* SuperSenhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSenhaUITests.swift; sourceTree = "<group>"; };
 		768CFAD62072AEB400FC57AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768CFAE22072B97E00FC57AC /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		768CFAE42072BB3D00FC57AC /* SecuriteTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuriteTypesViewController.swift; sourceTree = "<group>"; };
+		768CFAE62072BBF800FC57AC /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				768CFAB42072AEB400FC57AC /* AppDelegate.swift */,
 				768CFAB62072AEB400FC57AC /* ViewController.swift */,
 				768CFAB82072AEB400FC57AC /* Main.storyboard */,
+				768CFAE62072BBF800FC57AC /* PasswordGenerator.swift */,
+				768CFAE42072BB3D00FC57AC /* SecuriteTypesViewController.swift */,
+				768CFAE22072B97E00FC57AC /* PasswordsViewController.swift */,
 				768CFABB2072AEB400FC57AC /* Assets.xcassets */,
 				768CFABD2072AEB400FC57AC /* LaunchScreen.storyboard */,
 				768CFAC02072AEB400FC57AC /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768CFAE52072BB3D00FC57AC /* SecuriteTypesViewController.swift in Sources */,
 				768CFAB72072AEB400FC57AC /* ViewController.swift in Sources */,
+				768CFAE32072B97E00FC57AC /* PasswordsViewController.swift in Sources */,
+				768CFAE72072BBF800FC57AC /* PasswordGenerator.swift in Sources */,
 				768CFAB52072AEB400FC57AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tosin.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tosin.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
